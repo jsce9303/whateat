@@ -1,10 +1,24 @@
   /* 초기화 */
-  * { margin: 0; padding: 0}
+  * { 
+    margin: 0; padding: 0
+  }
 
   /* 화면 랩핑 */
   #wrap {
     width: 1024px;
   }
+
+  /* 설명박스 내 정렬 */
+  .InfoView {
+    width: 150px; height: 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+  /* 설명박스 내 a태그 CSS 설정 */
+    .InfoView > a {
+      text-decoration: none;
+      color: blue;
+    }
 
   figure {
     width: 1024px;
@@ -17,7 +31,7 @@
     }
     figure {
       margin : 15px;
-      width : 90%; height: 300px;
+      width : 93%; height: 300px;
     }
   }
 
