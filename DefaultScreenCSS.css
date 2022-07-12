@@ -1,0 +1,35 @@
+  /* 초기화 */
+  * { margin: 0; padding: 0}
+
+  /* 화면 랩핑 */
+  #wrap {
+    width: 1024px;
+  }
+
+  figure {
+    width: 1024px;
+  }
+
+  /*모바일 세로 화면 */
+  @media screen and (max-width: 767px) {
+    #wrap {
+      width: 100%;
+    }
+    figure {
+      margin : 15px;
+      width : 90%; height: 300px;
+    }
+  }
+
+  /* 모바일 가로 또는 태블릿화면 
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #wrap {
+      width: 100%;
+    }
+  } */
+  /*데스크탑 화면*/
+  @media screen and (min-width: 1024px) {
+    #wrap {
+      width: 100%;
+    }
+  }

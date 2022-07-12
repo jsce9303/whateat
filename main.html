@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link rel="stylesheet" href="DefaultScreenCSS.css">
+
+</head>
+<body>
+  <div id="wrap">
+    <!-- 지도 API 삽입 예정 -->
+    <figure id=map></figure>
+  </div>
+
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=698606c3ef1c2e92f597c359d8a97934"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(37.247525, 127.057592),
+			level: 4
+		};
+		var map = new kakao.maps.Map(container, options);
+    var imageSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png', 
+    // 마커이미지의 주소입니다    
+    imageSize = new kakao.maps.Size(32, 34.5), 
+    // 마커이미지의 크기입니다
+    imageOption = {offset: new kakao.maps.Point(13.5, 34.5)}; 
+    // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+    // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+    markerPosition = new kakao.maps.LatLng(37.247525, 127.057592); // 마커가 표시될 위치입니다
+
+    // 마커를 생성합니다
+    var marker = new kakao.maps.Marker({
+     position: markerPosition,
+    image: markerImage // 마커이미지 설정 
+    });
+
+    // 마커가 지도 위에 표시되도록 설정합니다
+    marker.setMap(map);  
+
+    // 커스텀 오버레이에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+    var content = '<div class="customoverlay">' +
+    '  <a href="https://map.kakao.com/link/map/11394059" target="_blank">' +
+    '    <span class="title">초기</span>' +
+    '  </a>' +
+    '</div>';
+
+    // 커스텀 오버레이가 표시될 위치입니다 
+    var position = new kakao.maps.LatLng(37.247525, 127.057592);  
+
+    // 커스텀 오버레이를 생성합니다
+    var customOverlay = new kakao.maps.CustomOverlay({
+    map: map,
+    position: position,
+    content: content,
+    yAnchor: 1 
+  });
+	</script>
+</body>
+</html>
