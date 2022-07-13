@@ -1,39 +1,14 @@
-  /* 초기화 */
-  * { 
-    margin: 0; padding: 0
-
-  }
-
-  /* 화면 랩핑 */
-  #wrap {
-    width: 1024px;
-  }
-
-  /* 설명박스 내 정렬 */
-  .InfoView {
-    width: 150px; height: 40px;
-    text-align: center;
-    font-size: 15px;
-  }
-  /* 설명박스 내 a태그 CSS 설정 */
-    .InfoView > a {
-      text-decoration: none;
-      color: blue;
-    }
-
-  figure {
-    width: 1024px;
-  }
 
   /*모바일 세로 화면 */
   @media screen and (max-width: 767px) {
     #wrap {
       width: 100%;
-    }
+  }
     figure {
       margin : 15px;
       width : 93%; height: 300px;
     }
+    
   }
 
   /* 모바일 가로 또는 태블릿화면 
@@ -48,6 +23,41 @@
       width: 100%;
     }
   }
+ 
+ /* 초기화 */
+  * { 
+    margin: 0; padding: 0;
+
+  }
+
+  /* 설명박스 내 정렬 */
+  .InfoView {
+    width: 150px; height: 40px;
+    text-align: center;
+    font-size: 15px;
+  }
+  /* 설명박스 내 a태그 CSS 설정 */
+    .InfoView > a {
+      text-decoration: none;
+      color: blue;
+    }
+  /*로고 이미지 크기 조절*/
+  #indexlogo {
+    width: 100%; height: 100%;
+  }
+  /* 인덱스 내 div태그 링크 */
+  .LinkList {
+    margin: 5px auto;
+    background-color: lightblue;
+    width: 35%; height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+  }
+    .LinkList:hover {
+      background-color: #2e9cdf;
+    }
+
 
   /*메인화면 카테고리*/
   .main {
@@ -64,6 +74,7 @@
     display: none;
   }
   section > a {
+    font-size: 20px;
     text-decoration: none;
     color: black;
     display: block;
@@ -82,12 +93,14 @@
 
   label {
     width: 60px;
-    font-size: 11px;
+    font-size: 12px;
     display: inline-block;
-    padding: 5px 5px;
+    padding: 10px 10px;
     font-weight: 600;
     color: #bbb;
-    border: 1px solid transparent;}
+    border: 1px solid transparent;
+    text-align: center;
+  }
 
   label:hover {
     color: #2e9cdf;

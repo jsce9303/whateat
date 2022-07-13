@@ -297,7 +297,7 @@ var positions = [
 ];
 
 // 마커 이미지의 이미지 주소입니다
-var imageSrc = "image111.png"; 
+var imageSrc = "img/MapPin.png"; 
     
 for (var i = 0; i < positions.length; i ++) {
     
