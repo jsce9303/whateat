@@ -181,7 +181,7 @@ var positions = [
   },
   {
     title: '김가네김밥',
-    latlng: new kakao.maps.LatLng(37.246882, 127.056802),
+    latlng: new kakao.maps.LatLng(37.246882, 127.056772),
     content: 
     '<div class="InfoView">김가네김밥(분식)<br>' 
     +
@@ -297,7 +297,7 @@ var positions = [
 ];
 
 // 마커 이미지의 이미지 주소입니다
-var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png"; 
+var imageSrc = "image111.png"; 
     
 for (var i = 0; i < positions.length; i ++) {
     
