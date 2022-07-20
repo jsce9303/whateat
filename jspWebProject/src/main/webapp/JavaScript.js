@@ -15,9 +15,9 @@ var positions = [
     +
     '<a href="#" target="_blank">상세보기</a>'
     +
-    '<a href="#" target="_blank">'
+    '<a href="https://naver.me/Fds7nui5" target="_blank">'
     +
-    ' 네이버보기</a><div>'
+    ' 네이버보기</a></div>'
   },
   {
     title: '롯데리아', 
@@ -27,9 +27,9 @@ var positions = [
     +
     '<a href="#" target="_blank">상세보기</a>'
     +
-    '<a href="#" target="_blank">'
+    '<a href="https://naver.me/FUGTpV6j" target="_blank">'
     +
-    ' 네이버보기</a><div>'
+    ' 네이버보기</a></div>'
   },
   {
     title: '맘스터치', 
@@ -39,9 +39,9 @@ var positions = [
     +
     '<a href="#" target="_blank">상세보기</a>'
     +
-    '<a href="#" target="_blank">'
+    '<a href="https://naver.me/5thFOnTc" target="_blank">'
     +
-    ' 네이버보기</a><div>'
+    ' 네이버보기</a></div>'
   },
   {
     title: 'UFO버거',
@@ -51,149 +51,213 @@ var positions = [
     +
     '<a href="#" target="_blank">상세보기</a>'
     +
-    '<a href="#" target="_blank">'
+    '<a href="https://naver.me/5JPfnjzq" target="_blank">'
     +
-    ' 네이버보기</a><div>'
+    ' 네이버보기</a></div>'
   },
   {
-    title: '김밥천국',
+    title: '김밥천국 영통점',
     latlng: new kakao.maps.LatLng(37.246662, 127.060732),
     content: 
     '<div class="InfoView">김밥천국(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/xScNqtL5" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '국수나무',
+    title: '국수나무 수원벽적골점',
     latlng: new kakao.maps.LatLng(37.246672, 127.060816),
     content: 
     '<div class="InfoView">국수나무(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/xry7List" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    itle: '고봉민김밥',
+    itle: '고봉민김밥 수원벽적골점',
     latlng: new kakao.maps.LatLng(37.246860, 127.060891),
     content: 
     '<div class="InfoView">고봉민김밥(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/IIZBOhBl" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '지지고',
+    title: '지지고 수원영통점',
     latlng: new kakao.maps.LatLng(37.246922, 127.060750),
     content: 
     '<div class="InfoView">지지고(도시락)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GVMciPbD" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '이삭토스트',
+    title: '이삭토스트 수원영통벽적골점',
     latlng: new kakao.maps.LatLng(37.247053, 127.060830),
     content: 
     '<div class="InfoView">이삭토스트(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/FCb3aqjz" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '본죽비빔밥',
+    title: '본죽비빔밥 수원영통벽적골점',
     latlng: new kakao.maps.LatLng(37.246629, 127.061388),
     content: 
-    '<div class="InfoView">본죽비빔밥(한식)<br>' 
+    '<div class="InfoView">본죽&비빔밥(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GaMUY0QI" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '파리바게뜨',
+    title: '파리바게뜨 영통롯데점',
     latlng: new kakao.maps.LatLng(37.246793, 127.061397),
     content: 
     '<div class="InfoView">파리바게뜨(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/Fgi50UMG" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '미소야',
+    title: '미소야 수원벽적골점',
     latlng: new kakao.maps.LatLng(37.246648, 127.060353),
     content: 
     '<div class="InfoView">미소야(일식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/x0ahPELM" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '홍콩반점',
+    title: '홍콩반점0410 수원망포역점',
     latlng: new kakao.maps.LatLng(37.246316, 127.060185),
     content: 
-    '<div class="InfoView">홍콩반점(중식)<br>' 
+    '<div class="InfoView">홍콩반점0410(중식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GdJ1Fawq" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '할매순대국',
+    title: '망포할매순대국',
     latlng: new kakao.maps.LatLng(37.246518, 127.057743),
     content: 
-    '<div class="InfoView">할매순대국(한식)<br>' 
+    '<div class="InfoView">망포할매순대국(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/FEJgmEeg" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '오공복이',
+    title: '오공복이 수원망포점',
     latlng: new kakao.maps.LatLng(37.246517, 127.057718),
     content: 
     '<div class="InfoView">오공복이(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/IIqfEv8i" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '미정국수',
+    title: '미정국수0410 수원영통점',
     latlng: new kakao.maps.LatLng(37.246486, 127.056764),
     content: 
-    '<div class="InfoView">미정국수(한식)<br>' 
+    '<div class="InfoView">미정국수0410(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GKoxdbpf" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '신전떡볶이',
+    title: '신전떡볶이 수원영통1호점',
     latlng: new kakao.maps.LatLng(37.246997, 127.057225),
     content: 
     '<div class="InfoView">신전떡볶이(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/5B1vDe8u" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '던킨도너츠',
+    title: '던킨도너츠 수원망포점',
     latlng: new kakao.maps.LatLng(37.247032, 127.056912),
     content: 
     '<div class="InfoView">던킨도너츠(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/Fb9KtkGP" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '샐러디',
+    title: '샐러디 수원망포역점',
     latlng: new kakao.maps.LatLng(37.246986, 127.056907),
     content: 
     '<div class="InfoView">샐러디(양식)<br>' 
     +
     '<a href="#" target="_blank">상세보기</a>'
     +
-    '<a href="http://naver.me/5YiuLXzp" target="_blank">'
+    '<a href="https://naver.me/5YiuLXzp" target="_blank">'
     +
-    ' 네이버보기</a><div>'
+    ' 네이버보기</a></div>'
   },
   {
-    title: '김가네김밥',
+    title: '김가네김밥 망포역사거리점',
     latlng: new kakao.maps.LatLng(37.246882, 127.056772),
     content: 
     '<div class="InfoView">김가네김밥(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GNyOesBm" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   },
   {
-    title: '다복향마라탕',
+    title: '다복향마라탕 망포점',
     latlng: new kakao.maps.LatLng(37.246891, 127.056658),
     content: 
-    '<div class="InfoView">다복향마라탕(분식)<br>' 
+    '<div class="InfoView">다복향마라탕(중식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GC6gcU7w" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
@@ -202,70 +266,102 @@ var positions = [
     content: 
     '<div class="InfoView">압구정한식부페(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GNyOesBm" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '콰이찬',
+    title: '콰이찬 영통점',
     latlng: new kakao.maps.LatLng(37.249083, 127.057597),
     content: 
     '<div class="InfoView">콰이찬(중식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/Fk5L25y4" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '한솥도시락',
-    latlng: new kakao.maps.LatLng(37.245280, 127.056219),
+    title: '한솥도시락 수원태장고앞점',
+    latlng: new kakao.maps.LatLng(37.249280, 127.057783),
     content: 
     '<div class="InfoView">한솥도시락(도시락)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GLKlI4C6" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '김밥천국',
+    title: '김밥천국 망포점',
     latlng: new kakao.maps.LatLng(37.245308, 127.055922),
     content: 
     '<div class="InfoView">김밥천국(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/FbRYTjxN" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '베트남쌀국수',
+    title: '전티마이베트남쌀국수 망포점',
     latlng: new kakao.maps.LatLng(37.245305, 127.055482),
     content: 
-    '<div class="InfoView">베트남쌀국수(?)<br>' 
+    '<div class="InfoView">전티마이베트남(?)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/GFperm7c" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '최고당돈까스',
+    title: '최고당돈까스 망포역점',
     latlng: new kakao.maps.LatLng(37.245296, 127.055356),
     content: 
     '<div class="InfoView">최고당돈까스(일식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/5xlOd0hf" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '하얀풍차',
+    title: '하얀풍차제과점 망포점',
     latlng: new kakao.maps.LatLng(37.245026, 127.056318),
     content: 
     '<div class="InfoView">하얀풍차(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/FdsGGZvb" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
-    title: '큰맛할매순대국',
+    title: '큰맛할매순대국 망포점',
     latlng: new kakao.maps.LatLng(37.245390, 127.059022),
     content: 
     '<div class="InfoView">큰맛할매순대국(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/Fye5KwlE" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
@@ -274,7 +370,11 @@ var positions = [
     content: 
     '<div class="InfoView">상화돈까스(일식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="#" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/xOCSp8pT" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
   ,
   {
@@ -283,17 +383,13 @@ var positions = [
     content: 
     '<div class="InfoView2">두둑한샤브칼국수(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
-  }
-  ,
-  {
-    title: '김밥천국',
-    latlng: new kakao.maps.LatLng(37.245280, 127.056219),
-    content: 
-    '<div class="InfoView">김밥천국(분식)<br>' 
+    '<a href="#" target="_blank">상세보기</a>'
     +
-    '<a href="#" target="_blank">상세보기</a><div>'
+    '<a href="https://naver.me/5y4qre4t" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
   }
+
 ];
 
 // 마커 이미지의 이미지 주소입니다

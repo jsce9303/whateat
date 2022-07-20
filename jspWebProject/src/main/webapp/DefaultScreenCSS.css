@@ -9,6 +9,10 @@
       width : 93%; height: 300px;
     }
     
+    .detail_Main {
+      margin : 15px;
+      width: 93%;
+    }
   }
 
   /* 모바일 가로 또는 태블릿화면 
@@ -21,6 +25,9 @@
   @media screen and (min-width: 1024px) {
     #wrap {
       width: 100%;
+    }
+    section {
+      width: 93%;
     }
   }
  
@@ -42,7 +49,11 @@
     font-size: 14px;
   }
   /* 설명박스 내 a태그 CSS 설정 */
-    .InfoView, .InfoView2 > a {
+    .InfoView > a {
+      text-decoration: none;
+      color: blue;
+    }
+    .InfoView2 > a {
       text-decoration: none;
       color: blue;
     }
@@ -62,6 +73,49 @@
     .LinkList:hover {
       background-color: #2e9cdf;
     }
+  /* 가게 메인로고 */
+  .detaillogo {
+    width: 100%; height: 100%;
+  }
+  
+  /* 상세 페이지 메뉴판 */
+  .detail_Main {
+    border: 1px solid #ddd;
+  }
+  /* */
+  .detail_Menu_Content {
+    display: flex;
+  }
+  .detail_Tag {
+    width: 20%;
+  }
+  .detail_Text {
+    width: 80%;
+  }
+  /* 상세 페이지 대표 메뉴 이름 */
+  .detail_MainMenu_Tag {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    text-align: center;
+  }
+
+   /* 메인 메뉴리스트 메뉴이름 */
+  .detail_MainMenu_List > p {
+    margin: 5px;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  /* 이미지와 텍스트 정렬을 위한 플렉스 */
+  .detail_MainMenu_List {
+    display: flex;
+  }
+  /* 테스트용 임시 더미 이미지 */
+  .detail_Dummy_Image {
+    margin: 5px;
+    width: 75px; height: 50px;
+  }
+
 
 
   /*메인화면 카테고리*/
@@ -71,12 +125,12 @@
     padding: 0px 10px 0px 10px;  
     border-radius: 7px;;        
     background: #ffffff;
-    
   }
 
   section {
     border-top: 1px solid #ddd;
     display: none;
+    
   }
   section > a {
     font-size: 20px;
@@ -118,6 +172,8 @@
       border-top: 2px solid #2e9cdf;
       border-bottom: 1px solid #ffffff;}
 
+   
+
   #tab1:checked ~ #content1,
   #tab2:checked ~ #content2,
   #tab3:checked ~ #content3,
@@ -125,5 +181,7 @@
   #tab5:checked ~ #content5,
   #tab6:checked ~ #content6,
   #tab7:checked ~ #content7,
-  #tab8:checked ~ #content8 {
+  #tab8:checked ~ #content8,
+  #tab9:checked ~ #content9 {
     display: block;}
+  
