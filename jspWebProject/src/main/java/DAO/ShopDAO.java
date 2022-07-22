@@ -27,17 +27,6 @@ public class ShopDAO extends JDBCConnection {
 				dto.setCategory(rs.getString(4));
 				dto.setImage(rs.getString(5));
 				dto.setPhone(rs.getString(7));
-				dto.setManu1(rs.getString(8));
-				dto.setManuimage1(rs.getString(9));
-				dto.setManu2(rs.getString(10));
-				dto.setManuimage2(rs.getString(11));
-				dto.setManu3(rs.getString(12));
-				dto.setManuimage3(rs.getString(13));
-				dto.setManu4(rs.getString(14));
-				dto.setManuimage4(rs.getString(15));
-				dto.setManu5(rs.getString(16));
-				dto.setManuimage5(rs.getString(17));
-
 			}
 		}
 		catch(Exception e) {
@@ -45,4 +34,40 @@ public class ShopDAO extends JDBCConnection {
 		}
 	return dto;	
 	}
+	
+	public ShopDTO getShopDTOImage (String shopname) {
+		ShopDTO dto = new ShopDTO();
+		String sql = null;
+		
+		try {
+			sql = "SELECT * FROM ShopImageDB WHERE Shopname = '" + shopname + "'";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			
+			
+			if (rs.next()) {
+				dto.setImage1(rs.getString(1));
+				dto.setImagetext1(rs.getString(2));
+				dto.setImage2(rs.getString(3));
+				dto.setImagetext2(rs.getString(4));
+				dto.setImage3(rs.getString(5));
+				dto.setImagetext3(rs.getString(6));
+				dto.setImage4(rs.getString(7));
+				dto.setImagetext4(rs.getString(8));
+				dto.setImage5(rs.getString(9));
+				dto.setImagetext5(rs.getString(10));
+				dto.setMenuboard1(rs.getString(11));
+				dto.setMenuboard1(rs.getString(12));
+				dto.setMenuboard1(rs.getString(13));
+			}
+			
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	return dto;
+	}
+	
 }

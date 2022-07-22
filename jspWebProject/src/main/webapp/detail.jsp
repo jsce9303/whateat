@@ -16,9 +16,10 @@
 	// 테이블 DAO를 통해 DTO로 회원정보 획득
 	ShopDAO dao = new ShopDAO(driver, url, id, passwd);
 	ShopDTO dto = dao.getShopDTODetail(shopname);
+	ShopDTO dtoimage = dao.getShopDTOImage(shopname);
 	
 	if(dto.getShopname() != null) {
-	
+		
 %>
 <!DOCTYPE html>
 <html lang="ko">
@@ -54,37 +55,38 @@
         </div>
         <div class="detail_MainMenu">
           <p class="detail_MainMenu_Tag">대표메뉴</p>
-          <%if (dto.getManuimage1() != null) {%>
+          <%if (dtoimage.getImage1() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dto.getManuimage1() %>" Onclick="location.href='/jspWebProject/img/<%= dto.getManuimage1()%>'" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%if (dto.getManu1() != null) {%> <%=dto.getManu1() %><%} %></p>
+            <img src="img/<%=dtoimage.getImage1() %>" Onclick="location.href='/jspWebProject/img/<%= dtoimage.getImage1()%>'" class="detail_Dummy_Image">
+            <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext1() != null) {%> <%=dtoimage.getImagetext1() %><%} %></p>
           </div>
           <%} %>
-          <%if (dto.getManuimage2() != null) {%>
+          <%if (dtoimage.getImage2() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dto.getManuimage2() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%if (dto.getManu2() != null) {%> <%=dto.getManu2() %><%} %></p>
+            <img src="img/<%=dtoimage.getImage2() %>" class="detail_Dummy_Image">
+            <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext2() != null) {%> <%=dtoimage.getImagetext2() %><%} %></p>
           </div>
           <%} %>
-          <%if (dto.getManuimage3() != null) {%>
+          <%if (dtoimage.getImage3() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dto.getManuimage3() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%if (dto.getManu3() != null) {%> <%=dto.getManu3() %><%} %></p>
+            <img src="img/<%=dtoimage.getImage3() %>" class="detail_Dummy_Image">
+            <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext3() != null) {%> <%=dtoimage.getImagetext3() %><%} %></p>
           </div>
           <%} %>
-          <%if (dto.getManuimage4() != null) {%>
+          <%if (dtoimage.getImage4() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dto.getManuimage4() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%if (dto.getManu4() != null) {%> <%=dto.getManu4() %><%} %></p>
+            <img src="img/<%=dtoimage.getImage4() %>" class="detail_Dummy_Image">
+            <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext4() != null) {%> <%=dtoimage.getImagetext4() %><%} %></p>
           </div>
           <%} %>
-          <%if (dto.getManuimage5() != null) {%>
+          <%if (dtoimage.getImage5() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dto.getManuimage5() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%if (dto.getManu5() != null) {%> <%=dto.getManu5() %><%} %></p>
+            <img src="img/<%=dtoimage.getImage5() %>" class="detail_Dummy_Image">
+            <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext5() != null) {%> <%=dtoimage.getImagetext5() %><%} %></p>
           </div>
           <%} %>
         </div>
+        
       </div>
     <div id="divLink">
       <div class="LinkList" Onclick="location.href='main.html'">지도로 이동하기</div>
@@ -98,4 +100,5 @@
 		out.println("잘못된 연결입니다.");
 	}
 	
-	dao.close(); %>
+	dao.close(); 
+%>
