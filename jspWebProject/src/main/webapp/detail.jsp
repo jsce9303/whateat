@@ -54,26 +54,36 @@
         </div>
         <div class="detail_MainMenu">
           <p class="detail_MainMenu_Tag">대표메뉴</p>
+          <%if (dto.getManuimage1() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dto.getManuimage1() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%=dto.getManu1() %></p>
+            <img src="img/<%=dto.getManuimage1() %>" Onclick="location.href='/jspWebProject/img/<%= dto.getManuimage1()%>'" class="detail_Dummy_Image">
+            <p class="detail_MainMenu_Content"><%if (dto.getManu1() != null) {%> <%=dto.getManu1() %><%} %></p>
           </div>
+          <%} %>
+          <%if (dto.getManuimage2() != null) {%>
           <div class="detail_MainMenu_List">
             <img src="img/<%=dto.getManuimage2() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%=dto.getManu2() %></p>
+            <p class="detail_MainMenu_Content"><%if (dto.getManu2() != null) {%> <%=dto.getManu2() %><%} %></p>
           </div>
+          <%} %>
+          <%if (dto.getManuimage3() != null) {%>
           <div class="detail_MainMenu_List">
             <img src="img/<%=dto.getManuimage3() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%=dto.getManu3() %></p>
+            <p class="detail_MainMenu_Content"><%if (dto.getManu3() != null) {%> <%=dto.getManu3() %><%} %></p>
           </div>
+          <%} %>
+          <%if (dto.getManuimage4() != null) {%>
           <div class="detail_MainMenu_List">
             <img src="img/<%=dto.getManuimage4() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%=dto.getManu4() %></p>
+            <p class="detail_MainMenu_Content"><%if (dto.getManu4() != null) {%> <%=dto.getManu4() %><%} %></p>
           </div>
+          <%} %>
+          <%if (dto.getManuimage5() != null) {%>
           <div class="detail_MainMenu_List">
             <img src="img/<%=dto.getManuimage5() %>" class="detail_Dummy_Image">
-            <p class="detail_MainMenu_Content"><%=dto.getManu5() %></p>
+            <p class="detail_MainMenu_Content"><%if (dto.getManu5() != null) {%> <%=dto.getManu5() %><%} %></p>
           </div>
+          <%} %>
         </div>
       </div>
     <div id="divLink">

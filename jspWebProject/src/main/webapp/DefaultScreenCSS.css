@@ -3,8 +3,14 @@
   @media screen and (max-width: 767px) {
     #wrap {
       width: 100%;
-  }
+    }
+
     figure {
+      margin : 15px;
+      width : 93%; height: 300px;
+    }
+
+    #map {
       margin : 15px;
       width : 93%; height: 300px;
     }

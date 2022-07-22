@@ -12,7 +12,7 @@ public class JDBCConnection {
 		
 		try {
 			Class.forName(driver);
-			System.out.println("드라이버 연결 성공");
+			System.out.println("드라이버 로드 성공");
 			
 			conn = DriverManager.getConnection(url, id, pass);
 			System.out.println("DB 연결 성공");
