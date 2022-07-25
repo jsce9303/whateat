@@ -16,7 +16,7 @@ public class ShopDAO extends JDBCConnection {
 		
 		try {
 			
-			sql = "SELECT * FROM ShopTestDB WHERE Shopname = '" + shopname + "'";
+			sql = "SELECT * FROM ShopInfo WHERE Shopname = '" + shopname + "'";
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			
@@ -35,30 +35,35 @@ public class ShopDAO extends JDBCConnection {
 	return dto;	
 	}
 	
-	public ShopDTO getShopDTOImage (String shopname) {
+	public ShopDTO getShopDTOImage (int ownnum) {
 		ShopDTO dto = new ShopDTO();
 		String sql = null;
 		
 		try {
-			sql = "SELECT * FROM ShopImageDB WHERE Shopname = '" + shopname + "'";
+			sql = "SELECT * FROM ShopImage WHERE ownnum = " + ownnum;
 			pstmt = conn.prepareStatement(sql);
 			rs = pstmt.executeQuery();
 			
 			
 			if (rs.next()) {
-				dto.setImage1(rs.getString(1));
-				dto.setImagetext1(rs.getString(2));
-				dto.setImage2(rs.getString(3));
-				dto.setImagetext2(rs.getString(4));
-				dto.setImage3(rs.getString(5));
-				dto.setImagetext3(rs.getString(6));
-				dto.setImage4(rs.getString(7));
-				dto.setImagetext4(rs.getString(8));
-				dto.setImage5(rs.getString(9));
-				dto.setImagetext5(rs.getString(10));
-				dto.setMenuboard1(rs.getString(11));
+				dto.setImage1(rs.getString(2));
+				dto.setImagetext1(rs.getString(3));
+				dto.setImage2(rs.getString(4));
+				dto.setImagetext2(rs.getString(5));
+				dto.setImage3(rs.getString(6));
+				dto.setImagetext3(rs.getString(7));
+				dto.setImage4(rs.getString(8));
+				dto.setImagetext4(rs.getString(9));
+				dto.setImage5(rs.getString(10));
+				dto.setImagetext5(rs.getString(11));
 				dto.setMenuboard1(rs.getString(12));
-				dto.setMenuboard1(rs.getString(13));
+				dto.setMenuboard2(rs.getString(13));
+				dto.setMenuboard3(rs.getString(14));
+				dto.setMenuboard4(rs.getString(15));
+				dto.setMenuboard5(rs.getString(16));
+				dto.setPriceboard1(rs.getString(17));
+				dto.setPriceboard2(rs.getString(18));
+				dto.setPriceboard3(rs.getString(19));
 			}
 			
 		}

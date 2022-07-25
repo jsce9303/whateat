@@ -8,48 +8,48 @@ var map = new kakao.maps.Map(container, options);
 // 마커를 표시할 위치와 title 객체 배열입니다 
 var positions = [
   {
-    title: '맥도날드', 
+    title: '맥도날드 수원망포DT점', 
     latlng: new kakao.maps.LatLng(37.246050, 127.054462),
     content: 
     '<div class="InfoView">맥도날드(패스트푸드)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=맥도날드+수원망포DT점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/Fds7nui5" target="_blank">'
     +
     ' 네이버보기</a></div>'
   },
   {
-    title: '롯데리아', 
+    title: '롯데리아 망포역점', 
     latlng: new kakao.maps.LatLng(37.246184,127.056639),
     content: 
     '<div class="InfoView">롯데리아(패스트푸드)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=롯데리아+망포역점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/FUGTpV6j" target="_blank">'
     +
     ' 네이버보기</a></div>'
   },
   {
-    title: '맘스터치', 
+    title: '맘스터치 영통1호점', 
     latlng: new kakao.maps.LatLng(37.246655,127.060635),
     content: 
     '<div class="InfoView">맘스터치(패스트푸드)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=맘스터치+영통1호점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/5thFOnTc" target="_blank">'
     +
     ' 네이버보기</a></div>'
   },
   {
-    title: 'UFO버거',
+    title: 'UFO버거 수원망포점',
     latlng: new kakao.maps.LatLng(37.246239, 127.058944),
     content: 
     '<div class="InfoView">UFO버거(패스트푸드)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=UFO버거+수원망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/5JPfnjzq" target="_blank">'
     +
@@ -61,7 +61,7 @@ var positions = [
     content: 
     '<div class="InfoView">김밥천국(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=김밥천국+영통점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/xScNqtL5" target="_blank">'
     +
@@ -71,21 +71,21 @@ var positions = [
     title: '국수나무 수원벽적골점',
     latlng: new kakao.maps.LatLng(37.246672, 127.060816),
     content: 
-    '<div class="InfoView">국수나무(한식)<br>' 
+    '<div class="InfoView">국수나무(면류)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=국수나무+수원벽적골점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/xry7List" target="_blank">'
     +
     ' 네이버보기</a></div>'
   },
   {
-    itle: '고봉민김밥 수원벽적골점',
+    itle: '고봉민김밥인 수원벽적골망포역점',
     latlng: new kakao.maps.LatLng(37.246860, 127.060891),
     content: 
     '<div class="InfoView">고봉민김밥(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=고봉민김밥인+수원벽적골망포역점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/IIZBOhBl" target="_blank">'
     +
@@ -97,7 +97,7 @@ var positions = [
     content: 
     '<div class="InfoView">지지고(도시락)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=지지고+수원영통점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GVMciPbD" target="_blank">'
     +
@@ -109,7 +109,7 @@ var positions = [
     content: 
     '<div class="InfoView">이삭토스트(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=이삭토스트+수원영통벽적골점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/FCb3aqjz" target="_blank">'
     +
@@ -121,7 +121,7 @@ var positions = [
     content: 
     '<div class="InfoView">본죽&비빔밥(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=본죽비빔밥+수원영통벽적골점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GaMUY0QI" target="_blank">'
     +
@@ -133,7 +133,7 @@ var positions = [
     content: 
     '<div class="InfoView">파리바게뜨(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=파리바게뜨+영통롯데점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/Fgi50UMG" target="_blank">'
     +
@@ -145,7 +145,7 @@ var positions = [
     content: 
     '<div class="InfoView">미소야(일식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=미소야+수원벽적골점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/x0ahPELM" target="_blank">'
     +
@@ -157,7 +157,7 @@ var positions = [
     content: 
     '<div class="InfoView">홍콩반점0410(중식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=홍콩반점0410+수원망포역점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GdJ1Fawq" target="_blank">'
     +
@@ -169,7 +169,7 @@ var positions = [
     content: 
     '<div class="InfoView">망포할매순대국(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=망포할매순대국" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/FEJgmEeg" target="_blank">'
     +
@@ -181,7 +181,7 @@ var positions = [
     content: 
     '<div class="InfoView">오공복이(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=오공복이+수원망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/IIqfEv8i" target="_blank">'
     +
@@ -193,7 +193,7 @@ var positions = [
     content: 
     '<div class="InfoView">미정국수0410(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=미정국수0410+수원영통점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GKoxdbpf" target="_blank">'
     +
@@ -205,7 +205,7 @@ var positions = [
     content: 
     '<div class="InfoView">신전떡볶이(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=신전떡볶이+수원영통1호점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/5B1vDe8u" target="_blank">'
     +
@@ -217,7 +217,7 @@ var positions = [
     content: 
     '<div class="InfoView">던킨도너츠(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=던킨도너츠+수원망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/Fb9KtkGP" target="_blank">'
     +
@@ -229,7 +229,7 @@ var positions = [
     content: 
     '<div class="InfoView">샐러디(양식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=샐러디+수원망포역점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/5YiuLXzp" target="_blank">'
     +
@@ -241,7 +241,7 @@ var positions = [
     content: 
     '<div class="InfoView">김가네김밥(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=김가네김밥+망포역사거리점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GNyOesBm" target="_blank">'
     +
@@ -253,7 +253,7 @@ var positions = [
     content: 
     '<div class="InfoView">다복향마라탕(중식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=다복향마라탕+망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GC6gcU7w" target="_blank">'
     +
@@ -266,7 +266,7 @@ var positions = [
     content: 
     '<div class="InfoView">압구정한식부페(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=압구정한식부페" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GNyOesBm" target="_blank">'
     +
@@ -279,7 +279,7 @@ var positions = [
     content: 
     '<div class="InfoView">콰이찬(중식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=콰이찬+영통점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/Fk5L25y4" target="_blank">'
     +
@@ -292,7 +292,7 @@ var positions = [
     content: 
     '<div class="InfoView">한솥도시락(도시락)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=한솥도시락+수원태장고앞점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GLKlI4C6" target="_blank">'
     +
@@ -305,7 +305,7 @@ var positions = [
     content: 
     '<div class="InfoView">김밥천국(분식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=김밥천국+망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/FbRYTjxN" target="_blank">'
     +
@@ -316,9 +316,9 @@ var positions = [
     title: '전티마이베트남쌀국수 망포점',
     latlng: new kakao.maps.LatLng(37.245305, 127.055482),
     content: 
-    '<div class="InfoView">전티마이베트남(?)<br>' 
+    '<div class="InfoView">전티마이베트남(면류)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=전티마이베트남쌀국수+망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/GFperm7c" target="_blank">'
     +
@@ -331,7 +331,7 @@ var positions = [
     content: 
     '<div class="InfoView">최고당돈까스(일식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=최고당돈까스+망포역점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/5xlOd0hf" target="_blank">'
     +
@@ -344,7 +344,7 @@ var positions = [
     content: 
     '<div class="InfoView">하얀풍차(제과)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=하얀풍차제과점+망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/FdsGGZvb" target="_blank">'
     +
@@ -357,7 +357,7 @@ var positions = [
     content: 
     '<div class="InfoView">큰맛할매순대국(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=큰맛할매순대국+망포점" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/Fye5KwlE" target="_blank">'
     +
@@ -370,7 +370,7 @@ var positions = [
     content: 
     '<div class="InfoView">상화돈까스(일식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=상화돈까스" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/xOCSp8pT" target="_blank">'
     +
@@ -383,9 +383,22 @@ var positions = [
     content: 
     '<div class="InfoView2">두둑한샤브칼국수(한식)<br>' 
     +
-    '<a href="#" target="_blank">상세보기</a>'
+    '<a href="detail.jsp?shopname=두둑한샤브칼국수" target="_blank">상세보기</a>'
     +
     '<a href="https://naver.me/5y4qre4t" target="_blank">'
+    +
+    ' 네이버보기</a></div>'
+  }
+    ,
+  {
+    title: '닐리 망포역점',
+    latlng: new kakao.maps.LatLng(37.245448, 127.060560),
+    content: 
+    '<div class="InfoView2">닐리(양식)<br>' 
+    +
+    '<a href="detail.jsp?shopname=닐리+망포역점" target="_blank">상세보기</a>'
+    +
+    '<a href="https://naver.me/FeeAw40P" target="_blank">'
     +
     ' 네이버보기</a></div>'
   }

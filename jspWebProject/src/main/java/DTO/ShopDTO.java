@@ -20,6 +20,11 @@ public class ShopDTO {
 	private String menuboard1;
 	private String menuboard2;
 	private String menuboard3;
+	private String menuboard4;
+	private String menuboard5;
+	private String priceboard1;
+	private String priceboard2;
+	private String priceboard3;
 	
 	public int getOwnnum() {
 		return ownnum;
@@ -134,6 +139,36 @@ public class ShopDTO {
 	}
 	public void setMenuboard3(String menuboard3) {
 		this.menuboard3 = menuboard3;
+	}
+	public String getMenuboard4() {
+		return menuboard4;
+	}
+	public void setMenuboard4(String menuboard4) {
+		this.menuboard4 = menuboard4;
+	}
+	public String getMenuboard5() {
+		return menuboard5;
+	}
+	public void setMenuboard5(String menuboard5) {
+		this.menuboard5 = menuboard5;
+	}
+	public String getPriceboard1() {
+		return priceboard1;
+	}
+	public void setPriceboard1(String priceboard1) {
+		this.priceboard1 = priceboard1;
+	}
+	public String getPriceboard2() {
+		return priceboard2;
+	}
+	public void setPriceboard2(String priceboard2) {
+		this.priceboard2 = priceboard2;
+	}
+	public String getPriceboard3() {
+		return priceboard3;
+	}
+	public void setPriceboard3(String priceboard3) {
+		this.priceboard3 = priceboard3;
 	}
 
 
