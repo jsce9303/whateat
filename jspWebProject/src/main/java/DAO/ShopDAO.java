@@ -75,4 +75,45 @@ public class ShopDAO extends JDBCConnection {
 	return dto;
 	}
 	
+	public ShopDTO getCount() {
+		
+		int count = 0;
+		ShopDTO dto = new ShopDTO();
+		String sql = null;
+		
+		try {
+			sql = "SELECT COUNT(*) FROM ShopInfo";
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			
+			if (rs.next()) {
+				count = rs.getInt(1);
+				dto.setShopcount(count);
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return dto;
+	}
+	
+	public ShopDTO getRandomImage(int ownnum) {
+		ShopDTO random = new ShopDTO();
+		String sql = null;
+		try {
+			sql = "SELECT Image FROM ShopInfo WHERE ownnum = " + ownnum;
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()) {
+					random.setRandomimage1(rs.getString(1));
+			}
+		}
+		catch(Exception e) {
+			
+		}
+		
+		return random;
+	}
 }

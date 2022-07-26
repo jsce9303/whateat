@@ -22,7 +22,7 @@ INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, 'UFO버거 수원망포점', '경기 �
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '김밥천국 영통점', '경기 수원시 영통구 덕영대로1555번길 13', '분식', 'kimba.png', SYSDATE, '031-204-5373');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '국수나무 수원벽적골점', '경기 수원시 영통구 덕영대로1555번길 13 세일빌딩', '면류', 'kuks.png', SYSDATE, '031-206-5262');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '고봉민김밥인 수원벽적골망포역점', '경기 수원시 영통구 덕영대로1555번길 13 세일빌딩', '분식', 'gobo.png', SYSDATE, '031-204-6672');
-INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '지지고 수원영통점', '경기 수원시 영통구 덕영대로1555번길 13 112호 지지고 수원영통점', '도시락', 'jiji.png', SYSDATE, '031-216-5843');
+INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '지지고 수원영통점', '경기 수원시 영통구 덕영대로1555번길 13 112호 지지고 수원영통점', '도시락', 'ggo.png', SYSDATE, '031-216-5843');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '이삭토스트 수원영통벽적골점', '경기 수원시 영통구 영통로 232 우성아파트 상가 105호', '제과', 'issa.png', SYSDATE, '031-206-8861');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '본죽비빔밥 수원영통벽적골점', '경기 수원시 영통구 덕영대로1555번길 16 벽적골롯데아파트', '한식', 'bonj.png', SYSDATE, '031-205-6288');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '파리바게뜨 영통롯데점', '경기 수원시 영통구 덕영대로1555번길 16 (영통동) 벽적골롯데아파트', '제과', 'pari.png', SYSDATE, '031-203-0600');
@@ -30,7 +30,7 @@ INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '미소야 수원벽적골점', '경기 
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '홍콩반점0410 수원망포역점', '경기 수원시 영통구 덕영대로 1543 2층', '중식', 'hong.png', SYSDATE, '0507-1329-6918');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '망포할매순대국', '경기 수원시 영통구 영통로214번길 9', '한식', 'mang.png', SYSDATE, '0507-1404-9922');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '오공복이 수원망포점', '경기 수원시 영통구 영통로214번길 9', '한식', 'ogon.png', SYSDATE, '070-8880-8015');
-INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '미정국수0410 수원영통점', '경기 수원시 영통구 영통로 215 정원빌딩 1층', '한식', 'mije.png', SYSDATE, '031-273-0410');
+INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '미정국수0410 수원영통점', '경기 수원시 영통구 영통로 215 정원빌딩 1층', '한식', 'miju.png', SYSDATE, '031-273-0410');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '신전떡볶이 수원영통1호점', '경기 수원시 영통구 영통로 232 상가2동 104호', '분식', 'sinj.png', SYSDATE, '0507-1478-2666');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '던킨도너츠 수원망포점', '경기 수원시 영통구 영통로217번길 6 망포역센타프라자 1층 109호', '제과', 'dunk.png', SYSDATE, '031-202-0100');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '샐러디 수원망포역점', '경기 수원시 영통구 영통로217번길 6 1층 108호 영통동, 센터프라자', '양식', 'sala.png', SYSDATE, '031-203-3388');

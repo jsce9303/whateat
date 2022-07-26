@@ -25,8 +25,8 @@ FOREIGN KEY(ownnum) REFERENCES ShopInfo(ownnum) ON DELETE CASCADE);
 <-- PRICEBOARD에는 가게 영문이름 앞 4글자와 뒤에 p + 숫자 조합 (예시 : 맥도날드 가격표1 -> macdp1.png -->
 <-- 이미지테이블의 순서는 외래키로 지정해둔 SHOPINFO 테이블을 따라간다. -->
 
-INSERT INTO ShopImage VALUES (1 , '', '', '', '', '', '', '', '', '', '', 'macdb1.png', 'macdb2.png', 'macdb3.png', 'macdp1.png', 'macdp1.png', '', '', '');
-INSERT INTO ShopImage VALUES (2 , '', '', '', '', '', '', '', '', '', '', 'lottb1.png', 'lottb2.png', '', '', '', 'lottp1.png', '', '');
+INSERT INTO ShopImage VALUES (1 , '', '', '', '', '', '', '', '', '', '', 'macdb1.png', 'macdb2.png', 'macdb3.png', '', '', 'macdp1.png', 'macdp2.png', '');
+INSERT INTO ShopImage VALUES (2 , '', '', '', '', '', '', '', '', '', '', 'lottb1.png', 'lottb2.png', '', '', '', 'lottp1.png', 'lottp2.png', '');
 INSERT INTO ShopImage VALUES (3 , '', '', '', '', '', '', '', '', '', '', 'momsb1.png', 'momsb2.png', '', '', '', 'momsp1.png', 'momsp2.png', ''); 
 INSERT INTO ShopImage VALUES (4 , '', '', '', '', '', '', '', '', '', '', 'ufobb1.png', 'ufobb2.png', 'ufobb3.png', '', '', '', '', ''); 
 INSERT INTO ShopImage VALUES (5 , '', '', '', '', '', '', '', '', '', '', 'kimbb1.png', 'kimbb2.png', 'kimbb3.png', '', '', 'kimbpa1.png', '', '');
@@ -52,9 +52,9 @@ INSERT INTO ShopImage VALUES (24 , '', '', '', '', '', '', '', '', '', '', 'hans
 INSERT INTO ShopImage VALUES (25 , '', '', '', '', '', '', '', '', '', '', 'kimbb1.png', 'kimbb2.png', 'kimbb3.png', '', '', 'kimbpa1.png', '', '');
 INSERT INTO ShopImage VALUES (26 , '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'jeonp1.png', '', '');
 INSERT INTO ShopImage VALUES (27 , '', '', '', '', '', '', '', '', '', '', 'choib1.png', 'choib2.png', '', '', '', 'choip1.png', '', '');
-INSERT INTO ShopImage VALUES (28 , '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+INSERT INTO ShopImage VALUES (28 , '', '', '', '', '', '', '', '', '', '', 'hayab1.png', 'hayab2.png', 'hayab3.png', 'hayab4.png', '', '', '', '');
 INSERT INTO ShopImage VALUES (29 , '', '', '', '', '', '', '', '', '', '', 'kunmb1.png', 'kunmb2.png', '', '', '', '', '', '');
-INSERT INTO ShopImage VALUES (30 , '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+INSERT INTO ShopImage VALUES (30 , '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'sangp1.png', '', '');
 INSERT INTO ShopImage VALUES (31 , '', '', '', '', '', '', '', '', '', '', 'dudub1.png', '', '', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (32 , '', '', '', '', '', '', '', '', '', '', 'nillb1.png', 'nillb2.png', 'nillb3.png', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (33 , '', '', '', '', '', '', '', '', '', '', 'subwb1.png', 'subwb2.png', 'subwb3.png', '', '', '', '', '');

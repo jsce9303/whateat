@@ -1,0 +1,24 @@
+diff a/jspWebProject/src/main/webapp/index.jsp b/jspWebProject/src/main/webapp/index.jsp	(rejected hunks)
+@@ -34,11 +34,15 @@
+     <div id="image_Box">
+     	<img src="">
+     </div>
+-    <div id="divLink">
+-      <div class="LinkList" Onclick="location.href='main.do'">시작하기</div>
+-      <div class="LinkList" Onclick="location.href='login.jsp'">로그인</div>
+-      <div class="LinkList" Onclick="location.href='signup.jsp'">회원가입</div>
+-    </div>
+-  </div>
++	<div class="under_Menu_Bar">
++		<%if (loginid == null) {%><a href="#" class="under_Nav">로그인</a> <%} %>
++		<a href="index.do" class="under_Nav">처음으로</a>
++		<a href="main.do" class="under_Nav" id="maintest">지도보기</a>
++		<a href="#" class="under_Nav">회원가입</a>
++	</div>
++ </div>
++  <script>
++  
++  </script>
+ </body>
+ </html>
+\ No newline at end of file

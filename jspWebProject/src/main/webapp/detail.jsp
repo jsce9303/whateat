@@ -60,31 +60,31 @@
           <p class="detail_MainMenu_Tag">대표메뉴</p>
           <%if (dtoimage.getImage1() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dtoimage.getImage1() %>" class="detail_Dummy_Image">
+            <img src="img/<%=dtoimage.getImage1() %>" class=".detail_Main_Image">
             <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext1() != null) {%> <%=dtoimage.getImagetext1() %><%} %></p>
           </div>
 	          <%} %>
           <%if (dtoimage.getImage2() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dtoimage.getImage1() %>" class="detail_Dummy_Image"/>
+            <img src="img/<%=dtoimage.getImage1() %>" class=".detail_Main_Image"/>
             <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext2() != null) {%> <%=dtoimage.getImagetext2() %><%} %></p>
           </div>
           <%} %>
           <%if (dtoimage.getImage3() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dtoimage.getImage1() %>"  class="detail_Dummy_Image"/>
+            <img src="img/<%=dtoimage.getImage1() %>"  class=".detail_Main_Image"/>
             <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext3() != null) {%> <%=dtoimage.getImagetext3() %><%} %></p>
           </div>
           <%} %>
           <%if (dtoimage.getImage4() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dtoimage.getImage1() %>" class="detail_Dummy_Image"/>
+            <img src="img/<%=dtoimage.getImage1() %>" class=".detail_Main_Image"/>
             <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext4() != null) {%> <%=dtoimage.getImagetext4() %><%} %></p>
           </div>
           <%} %>
           <%if (dtoimage.getImage5() != null) {%>
           <div class="detail_MainMenu_List">
-            <img src="img/<%=dtoimage.getImage1() %>" class="detail_Dummy_Image"/>
+            <img src="img/<%=dtoimage.getImage1() %>" class=".detail_Main_Image"/>
             <p class="detail_MainMenu_Content"><%if (dtoimage.getImagetext5() != null) {%> <%=dtoimage.getImagetext5() %><%} %></p>
           </div>
           <%} %>
