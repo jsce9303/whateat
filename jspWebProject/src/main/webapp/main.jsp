@@ -15,7 +15,7 @@
     <div id="map" style=" width: 93%; height: 300px;"></div>
   </div>
   
-  <div class="main" style="text-align:left">
+  <div class="main" style="text-align:left;">
     <!-- 탭구분 -->
     <input id="tab1" type="radio" name="tabs" checked> 
     <label for="tab1">패스트푸드</label>
@@ -112,6 +112,7 @@
     </section>
 
     <!-- 상세 정보 ( 제과 ) -->
+
     <section id="content7">
       <a href="detail.do?shopname=이삭토스트+수원영통벽적골점">이삭토스트</a>
     </section>
@@ -136,7 +137,7 @@
     <section id="content7">
       <a href="detail.do?shopname=">오버플로우테스트</a>
     </section>
-    
+
     <!-- 상세 정보 ( 중식 ) -->
     <section id="content8">
       <a href="detail.do?shopname=다복향마라탕+망포점">다복향마라탕</a>
@@ -166,6 +167,7 @@
 		<a href="main.do" class="under_Nav">지도보기</a>
 		<a href="#" class="under_Nav">회원가입</a>
 	</div>
+	<div style="width:100%; height:50px;"></div>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f13e5aba836e60a8655b08212947c636"></script>
 	<script src="JavaScript.js">
 	</script>

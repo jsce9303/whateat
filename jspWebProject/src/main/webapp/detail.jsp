@@ -140,6 +140,7 @@
 		<a href="main.do" class="under_Nav" id="maintest">지도보기</a>
 		<a href="#" class="under_Nav">회원가입</a>
 	</div>
+	<div style="width:100%; height:50px;"></div>
 </body>
 </html>
 

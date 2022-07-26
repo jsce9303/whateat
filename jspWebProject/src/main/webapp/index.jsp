@@ -10,6 +10,8 @@
 	String url = application.getInitParameter("OracleURL");
 	String id = application.getInitParameter("OracleId");
 	String passwd = application.getInitParameter("OraclePasswd");
+	
+	String loginid = null;
 	// 테이블 DAO를 통해 DTO로 회원정보 획득
 	ShopDAO dao = new ShopDAO(driver, url, id, passwd);
 	
@@ -32,11 +34,15 @@
     <div id="image_Box">
     	<img src="">
     </div>
-    <div id="divLink">
-      <div class="LinkList" Onclick="location.href='main.do'">시작하기</div>
-      <div class="LinkList" Onclick="location.href='login.jsp'">로그인</div>
-      <div class="LinkList" Onclick="location.href='signup.jsp'">회원가입</div>
-    </div>
-  </div>
+	<div class="under_Menu_Bar">
+		<%if (loginid == null) {%><a href="#" class="under_Nav">로그인</a> <%} %>
+		<a href="index.do" class="under_Nav">처음으로</a>
+		<a href="main.do" class="under_Nav" id="maintest">지도보기</a>
+		<a href="#" class="under_Nav">회원가입</a>
+	</div>
+ </div>
+  <script>
+  
+  </script>
 </body>
 </html>

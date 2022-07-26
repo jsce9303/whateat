@@ -105,6 +105,7 @@
     border-top: 1px solid #ddd;
     text-align: center;
   }
+	
 
    /* 메인 메뉴리스트 메뉴이름 */
   .detail_MainMenu_List > p {
@@ -141,8 +142,8 @@
   section {
     border-top: 1px solid #ddd;
     display: none;
-    
   }
+  
   section > a {
     font-size: 20px;
     text-decoration: none;
@@ -182,6 +183,10 @@
       border: 1px solid #ddd;
       border-top: 2px solid #2e9cdf;
       border-bottom: 1px solid #ffffff;}
+      
+  #content7{
+  overflow:scroll;
+  }
 
    
 
