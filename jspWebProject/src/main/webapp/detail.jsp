@@ -136,8 +136,8 @@
   </div>
 	<div class="under_Menu_Bar">
 		<%if (loginid == null) {%><a href="#" class="under_Nav">로그인</a> <%} %>
-		<a href="index.jsp" class="under_Nav">처음으로</a>
-		<a href="main.jsp" class="under_Nav" id="maintest">지도보기</a>
+		<a href="index.do" class="under_Nav">처음으로</a>
+		<a href="main.do" class="under_Nav" id="maintest">지도보기</a>
 		<a href="#" class="under_Nav">회원가입</a>
 	</div>
 </body>

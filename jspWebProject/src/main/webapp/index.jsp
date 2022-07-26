@@ -33,7 +33,7 @@
     	<img src="">
     </div>
     <div id="divLink">
-      <div class="LinkList" Onclick="location.href='main.jsp'">시작하기</div>
+      <div class="LinkList" Onclick="location.href='main.do'">시작하기</div>
       <div class="LinkList" Onclick="location.href='login.jsp'">로그인</div>
       <div class="LinkList" Onclick="location.href='signup.jsp'">회원가입</div>
     </div>

@@ -14,7 +14,6 @@ drop table shopimage;
 <-- 중복되는 지점의 이미지 같은 경우에는 알파벳 순서대로 뒤에 붙인다 (예시 : 맥도날드 A지점 -> maca.png B지점 -> macb.png) -->
 
 CREATE SEQUENCE ShopInfo_seq;
-drop sequence shopinfo_seq;
 
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '맥도날드 수원망포DT점', '경기 수원시 영통구 덕영대로 1499', '패스트푸드', 'macd.png', SYSDATE, '070-7209-0589');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '롯데리아 망포역점', '경기 수원시 영통구 덕영대로 1515', '패스트푸드', 'lott.png', SYSDATE, '031-206-7678');
@@ -44,7 +43,7 @@ INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '김밥천국 망포점', '경기 수원
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '전티마이베트남쌀국수 망포점', '경기 수원시 영통구 영통로 195', '면류', 'jeon.png', SYSDATE, '031-203-4929');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '최고당돈까스 망포역점', '경기 수원시 영통구 영통로 195 골든스퀘어 119호', '일식', 'choi.png', SYSDATE, '031-202-3720');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '하얀풍차제과점 망포점', '경기 수원시 영통구 영통로 195', '제과', 'haya.png', SYSDATE, '0507-1407-0031');
-INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '큰맛할매순대국 망포점', '경기 수원시 영통구 덕영대로1556번길 16 a동101호', '한식', 'kunm.png', SYSDATE, '031-203-9370');
+INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '큰맘할매순대국 망포점', '경기 수원시 영통구 덕영대로1556번길 16 a동101호', '한식', 'kunm.png', SYSDATE, '031-203-9370');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '상화돈까스', '경기 수원시 영통구 덕영대로1556번길 16 C 동 110호', '일식', 'sang.png', SYSDATE, '031-273-6432');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '두둑한샤브칼국수', '경기 수원시 영통구 덕영대로1556번길 16', '면류', 'dudu.png', SYSDATE, '0507-1309-3349');
 INSERT INTO ShopInfo VALUES (ShopInfo_seq.nextval, '닐리 망포역점', '경기 수원시 영통구 영통로 195 110호', '양식', 'nill.png', SYSDATE, '031-205-3877');
