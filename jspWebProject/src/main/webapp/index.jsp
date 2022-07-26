@@ -15,6 +15,13 @@
 	// 테이블 DAO를 통해 DTO로 회원정보 획득
 	ShopDAO dao = new ShopDAO(driver, url, id, passwd);
 	
+	ShopDTO dtocount = dao.getCount();
+	int count = dtocount.getShopcount();
+	int[] random = new int[5];
+	for (int i = 0; i < random.length; i++) {
+		random[i] = (int)(Math.random()*count+1)+1;
+	}
+	
 %>
 <!DOCTYPE html>
 <html lang="ko">
@@ -28,12 +35,17 @@
 </head>
 <body>
   <div id="wrap">
-    <figure>
-      <img id="indexlogo" src="img/dummy.png"/>
-    </figure>
-    <div id="image_Box">
-    	<img src="">
-    </div>
+    <div id="slideShow">
+      <ul class="slides">
+      	<% for(int x : random) {
+    			 ShopDTO dto = dao.getRandomImage(x);
+     	 %>
+       	<li><img src="img/<%=dto.getRandomimage1() %>"></li>
+      	<%} %>
+      </ul>
+      <div style="width:100%; height:275px;"></div>
+      <p style="text-align:center;">오늘은 이 집 어떨까?</p>
+     </div>
 	<div class="under_Menu_Bar">
 		<%if (loginid == null) {%><a href="#" class="under_Nav">로그인</a> <%} %>
 		<a href="index.do" class="under_Nav">처음으로</a>
@@ -41,8 +53,31 @@
 		<a href="#" class="under_Nav">회원가입</a>
 	</div>
  </div>
-  <script>
-  
-  </script>
+ <script>
+ 	let slideindex = 0;
+ 	
+ 	showSlides();
+ 	
+ 	function showSlides() {
+ 		let slides = document.querySelectorAll("li > img");
+ 		
+ 		for (let i = 0; i < slides.length; i++) {
+ 			slides[i].style.display = "none";
+ 		}
+ 		
+ 		slideindex++;
+ 		
+ 		if (slideindex > slides.length) 
+ 		{slideindex = 1;}
+ 		
+ 		slides[slideindex - 1].style.display = "block";
+		setTimeout(showSlides, 3000);
+ 	}
+ 	
+ 	function nextSlides() {
+	
+ 		
+ 	}
+ </script>
 </body>
 </html>

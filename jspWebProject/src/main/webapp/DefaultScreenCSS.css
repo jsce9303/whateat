@@ -40,7 +40,7 @@
  /* 초기화 */
   * { 
     margin: 0; padding: 0;
-
+    list-style: none;
   }
 
   /* 설명박스 내 정렬 */
@@ -118,8 +118,8 @@
   .detail_MainMenu_List {
     display: flex;
   }
-  /* 테스트용 임시 더미 이미지 */
-  .detail_Dummy_Image {
+  /* 대표 메뉴 이미지 */
+  .detail_Main_Image {
     margin: 5px;
     width: 75px; height: 50px;
   }
@@ -225,3 +225,20 @@
   	background: #f5827e;
   	color: white;
   }
+  
+  #slideShow {
+  	position:relative;
+  }
+  .slides {
+  	margin: 5px;
+  	width: 100%; height: 270px;
+  	position: absolute;
+  	overflow: hidden;
+  	top:0px;
+  	left: 0px;
+  	transition: 0.5s ease-out;
+  }
+  
+	li > img {
+		width: 97%;
+	}

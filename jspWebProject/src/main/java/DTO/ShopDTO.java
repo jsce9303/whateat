@@ -25,6 +25,9 @@ public class ShopDTO {
 	private String priceboard1;
 	private String priceboard2;
 	private String priceboard3;
+	private int shopcount;
+	private String randomimage1;
+
 	
 	public int getOwnnum() {
 		return ownnum;
@@ -170,6 +173,19 @@ public class ShopDTO {
 	public void setPriceboard3(String priceboard3) {
 		this.priceboard3 = priceboard3;
 	}
+	public int getShopcount() {
+		return shopcount;
+	}
+	public void setShopcount(int shopcount) {
+		this.shopcount = shopcount;
+	}
+	public String getRandomimage1() {
+		return randomimage1;
+	}
+	public void setRandomimage1(String randomimage1) {
+		this.randomimage1 = randomimage1;
+	}
+
 
 
 }
