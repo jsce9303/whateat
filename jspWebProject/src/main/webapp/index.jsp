@@ -32,20 +32,20 @@
   <title>Document</title> 
 
 <link rel="stylesheet" href="DefaultScreenCSS.css">
+<link rel="stylesheet" href="random.css">
+<script defer src="./random.js"></script>
 </head>
 <body>
   <div id="wrap">
-    <div id="slideShow">
-      <ul class="slides">
-      	<% for(int x : random) {
-    			 ShopDTO dto = dao.getRandomImage(x);
-     	 %>
-       	<li><img src="img/<%=dto.getRandomimage1() %>"></li>
-      	<%} %>
-      </ul>
-      <div style="width:100%; height:275px;"></div>
-      <p style="text-align:center;">오늘은 이 집 어떨까?</p>
-     </div>
+    <header>
+        <div id="header-div">
+            <p>오늘의 점심메뉴는?</p>
+            <button id="btn" onclick=start()>시작하기</button>
+            <button id="stop" onclick=stop()>멈추기</button>
+        </div>
+    </header>
+    <div id="main-div">
+    </div>
 	<div class="under_Menu_Bar">
 		<%if (loginid == null) {%><a href="#" class="under_Nav">로그인</a> <%} %>
 		<a href="index.do" class="under_Nav">처음으로</a>
@@ -53,31 +53,5 @@
 		<a href="#" class="under_Nav">회원가입</a>
 	</div>
  </div>
- <script>
- 	let slideindex = 0;
- 	
- 	showSlides();
- 	
- 	function showSlides() {
- 		let slides = document.querySelectorAll("li > img");
- 		
- 		for (let i = 0; i < slides.length; i++) {
- 			slides[i].style.display = "none";
- 		}
- 		
- 		slideindex++;
- 		
- 		if (slideindex > slides.length) 
- 		{slideindex = 1;}
- 		
- 		slides[slideindex - 1].style.display = "block";
-		setTimeout(showSlides, 3000);
- 	}
- 	
- 	function nextSlides() {
-	
- 		
- 	}
- </script>
 </body>
 </html>
