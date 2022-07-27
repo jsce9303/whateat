@@ -26,7 +26,8 @@ public class ShopDTO {
 	private String priceboard2;
 	private String priceboard3;
 	private int shopcount;
-	private String randomimage1;
+	private String rouletteimage;
+	private String roulettecategory;
 
 	
 	public int getOwnnum() {
@@ -179,12 +180,19 @@ public class ShopDTO {
 	public void setShopcount(int shopcount) {
 		this.shopcount = shopcount;
 	}
-	public String getRandomimage1() {
-		return randomimage1;
+	public String getRouletteimage() {
+		return rouletteimage;
 	}
-	public void setRandomimage1(String randomimage1) {
-		this.randomimage1 = randomimage1;
+	public void setRouletteimage(String rouletteimage) {
+		this.rouletteimage = rouletteimage;
 	}
+	public String getRoulettecategory() {
+		return roulettecategory;
+	}
+	public void setRoulettecategory(String roulettecategory) {
+		this.roulettecategory = roulettecategory;
+	}
+
 
 
 
