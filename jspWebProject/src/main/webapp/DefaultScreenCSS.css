@@ -224,40 +224,14 @@
   	background: #f5827e;
   	color: white;
   }
-<<<<<<< HEAD
-  
-  #slideShow {
-  	position:relative;
-  }
-  .slides {
-  	margin: 5px;
-  	width: 100%; height: 270px;
-  	position: absolute;
-  	overflow: hidden;
-  	top:0px;
-  	left: 0px;
-  	transition: 0.5s ease-out;
-  }
-  
-	li > img {
-		width: 97%;
-	}
-	
-	
-#header-div{
-    padding-top: 10px;
-=======
 
 #header-div{
     padding-top: 30px;
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
     width: 100%;
     text-align: center;
     font-size: 2rem;
 }
 
-<<<<<<< HEAD
-=======
 #mainbtr {
 	margin: 0 auto;
 	width: 30%; height: 40px;
@@ -273,7 +247,6 @@
 	color: white;
 }
 
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
 #main-div {
     display: flex;
     flex-direction: column;
@@ -289,36 +262,17 @@
 }
 
 #btn {
-<<<<<<< HEAD
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 1.3rem;
-    background-color: white;
-    border: 1px solid black;
-    
-=======
 	width:100px; height:40px;
     font-size: 1.3rem;
     color: #444555;
     background: white;
     border: 1px solid #444555;
     border-radius: 10px;
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
 }
 
 #btn:hover{
     /* transition: .5s; */
     cursor: pointer;
-<<<<<<< HEAD
-    /* background-color: rgb(115, 115, 238); */
-}
-
-#stop {
-    font-family: 'Do Hyeon', sans-serif;
-    font-size: 1.3rem;
-    background-color: black;
-    color: white;
-    border: none;
-=======
     color:white;
     background: #1886f3;
     border: 1px solid #1886f3;
@@ -331,16 +285,12 @@
     background: white;
     border: 1px solid grey;
     border-radius: 10px;
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
     /* transition: .5s; */
 }
 #stop:hover{
     /* transition:.5s; */
     cursor: pointer;
-<<<<<<< HEAD
-=======
     color:white;
     background:#e3193a;
     border: 1px solid #e3193a;
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
 }

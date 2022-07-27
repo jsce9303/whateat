@@ -1,42 +1,4 @@
 const data = [
-<<<<<<< HEAD
-    {
-        file : 'abgu.png',
-        description : '한식',
-    },
-    {
-        file : 'miso.png',
-        description : '일식',
-    },
-    {
-        file : 'dunk.png',
-        description : '제과',
-    },
-    {
-        file : 'miju.png',
-        description : '면류',
-    },
-    {
-        file : 'hong.png',
-        description : '중식',
-    },
-    {
-        file : 'hans.png',
-        description : '도시락',
-    },
-    {
-        file : 'ufob.png',
-        description : '패스트푸드',
-    },
-    {
-        file : 'sala.png',
-        description : '양식',
-    },
-    {
-        file : 'sinj.png',
-        description : '분식',
-    },
-=======
 
 	    {
 	        file : 'macd.png',
@@ -167,7 +129,6 @@ const data = [
 	        description : '큰맘할매순대국 망포점',
 	    },
 		
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
 ]
 
 // 요소 가져오기 
@@ -181,14 +142,9 @@ const changePic = () => {
     let i = 0;
     // 사진 돌아가하는 함수 setInterval 사용
     changePicId = setInterval(() => {
-<<<<<<< HEAD
-        image.src =`img/${data[i].file}`;
-        info.innerHTML =`오늘의 점심은 ${data[i].description}에서 골라볼까요? `
-=======
         image.src =`./img/${data[i].file}`;
         info.innerHTML =
         `<div style="text-align:center;">${data[i].description}</div>오늘의 점심은 여기서 먹어볼까요? `
->>>>>>> 0e7027ec2b47a6dc6a9a9149306634bd29a999be
         
         // 무한반복 로직
         if (i > data.length-1 || i === data.length-1) {
