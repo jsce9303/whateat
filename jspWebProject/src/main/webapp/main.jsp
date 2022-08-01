@@ -128,15 +128,6 @@
     <section id="content7">
       <a href="detail.do?shopname=던킨도너츠+수원망포점">던킨도너츠</a>
     </section>
-    <section id="content7">
-      <a href="detail.do?shopname=">오버플로우테스트</a>
-    </section>
-    <section id="content7">
-      <a href="detail.do?shopname=">오버플로우테스트</a>
-    </section>
-    <section id="content7">
-      <a href="detail.do?shopname=">오버플로우테스트</a>
-    </section>
 
     <!-- 상세 정보 ( 중식 ) -->
     <section id="content8">
