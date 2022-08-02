@@ -118,7 +118,7 @@
     display: flex;
   }
   /* 대표 메뉴 이미지 */
-  .detail_Main_Image {
+  .detail_Main_Image > img {
     margin: 5px;
     width: 75px; height: 50px;
   }
