@@ -54,7 +54,7 @@ INSERT INTO ShopImage VALUES (26 , '', '', '', '', '', '', '', '', '', '', '', '
 INSERT INTO ShopImage VALUES (27 , '', '', '', '', '', '', '', '', '', '', 'choib1.png', 'choib2.png', '', '', '', 'choip1.png', '', '');
 INSERT INTO ShopImage VALUES (28 , '', '', '', '', '', '', '', '', '', '', 'hayab1.png', 'hayab2.png', 'hayab3.png', 'hayab4.png', '', '', '', '');
 INSERT INTO ShopImage VALUES (29 , '', '', '', '', '', '', '', '', '', '', 'kunmb1.png', 'kunmb2.png', '', '', '', '', '', '');
-INSERT INTO ShopImage VALUES (30 , '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'sangp1.png', '', '');
+INSERT INTO ShopImage VALUES (30 , '', '', '', '', '', '', '', '', '', '', 'sangp1.png', '', '', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (31 , '', '', '', '', '', '', '', '', '', '', 'dudub1.png', '', '', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (32 , '', '', '', '', '', '', '', '', '', '', 'nillb1.png', 'nillb2.png', 'nillb3.png', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (33 , '', '', '', '', '', '', '', '', '', '', 'subwb1.png', 'subwb2.png', 'subwb3.png', '', '', '', '', '');
