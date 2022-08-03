@@ -46,7 +46,7 @@ INSERT INTO ShopImage VALUES (18 , '', '', '', '', '', '', '', '', '', '', 'dunk
 INSERT INTO ShopImage VALUES (19 , '', '', '', '', '', '', '', '', '', '', 'salab1.png', '', '', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (20 , '', '', '', '', '', '', '', '', '', '', 'kimgb1.png', 'kimgb2.png', 'kimgb3.png', 'kimgb4.png', 'kimgb5.png', 'kimgp1.png', 'kimgp2.png', 'kimgp3.png');
 INSERT INTO ShopImage VALUES (21 , '', '', '', '', '', '', '', '', '', '', 'dabob1.png', '', '', '', '', 'dabop1.png', '', '');
-INSERT INTO ShopImage VALUES (22 , 'X', '메뉴변동O', 'X', '카드 6500원', 'x', '현금 6000원', '', '', '', '', '', '', '', '', '', '', '', '');
+INSERT INTO ShopImage VALUES (22 , 'apgumenu.png', '메뉴변동O', 'apgucard.png', '카드 6500원', 'apguwon.png', '현금 6000원', '', '', '', '', '', '', '', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (23 , '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 INSERT INTO ShopImage VALUES (24 , '', '', '', '', '', '', '', '', '', '', 'hansb1.png', 'hansb2.png', 'hansb3.png', 'hansb4.png', '', '', '', '');
 INSERT INTO ShopImage VALUES (25 , '', '', '', '', '', '', '', '', '', '', 'kimbb1.png', 'kimbb2.png', 'kimbb3.png', '', '', 'kimbpa1.png', '', '');
@@ -60,4 +60,6 @@ INSERT INTO ShopImage VALUES (32 , '', '', '', '', '', '', '', '', '', '', 'nill
 INSERT INTO ShopImage VALUES (33 , '', '', '', '', '', '', '', '', '', '', 'subwb1.png', 'subwb2.png', 'subwb3.png', '', '', '', '', '');
 COMMIT;
 
+update ShopImage set image1 = 'apgumenupng' , image2 = 'apgucardpng' , image3 = 'apguwonpng' where ownnum = 22;
+COMMIT;
 select * from shopimage;

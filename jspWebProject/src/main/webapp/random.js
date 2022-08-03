@@ -3,18 +3,22 @@ const data = [
 	    {
 	        file : 'macd.png',
 	        description : '맥도날드 수원망포DT점',
+	        link : 'http://localhost:8088/jspWebProject/detail.do?shopname=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C+%EC%88%98%EC%9B%90%EB%A7%9D%ED%8F%ACDT%EC%A0%90',
 	    },
 	    {
 	        file : 'sinj.png',
 	        description : '신전떡볶이 수원영통1호점',
+	        link : 'http://localhost:8088/jspWebProject/detail.do?shopname=%EC%8B%A0%EC%A0%84%EB%96%A1%EB%B3%B6%EC%9D%B4+%EC%88%98%EC%9B%90%EC%98%81%ED%86%B51%ED%98%B8%EC%A0%90',
 	    },
 	    {
 	        file : 'sala.png',
 	        description : '샐러디 수원망포역점',
+	        link : 'http://localhost:8088/jspWebProject/detail.do?shopname=%EC%83%90%EB%9F%AC%EB%94%94+%EC%88%98%EC%9B%90%EB%A7%9D%ED%8F%AC%EC%97%AD%EC%A0%90',
 	    },
 	    {
 	        file : 'bonj.png',
 	        description : '본죽비빔밥 수원영통벽적골점',
+	        link : 'http://localhost:8088/jspWebProject/detail.do?shopname=%EB%B3%B8%EC%A3%BD%EB%B9%84%EB%B9%94%EB%B0%A5+%EC%88%98%EC%9B%90%EC%98%81%ED%86%B5%EB%B2%BD%EC%A0%81%EA%B3%A8%EC%A0%90',
 	    },
 	    {
 	        file : 'dabo.png',
@@ -35,6 +39,7 @@ const data = [
 	    {
 	        file : 'moms.png',
 	        description : '맘스터치 영통1호점',
+	        link : 'http://localhost:8088/jspWebProject/detail.do?shopname=%EB%A7%98%EC%8A%A4%ED%84%B0%EC%B9%98+%EC%98%81%ED%86%B51%ED%98%B8%EC%A0%90',
 	    },
 	    {
 	        file : 'kimbb.png',
